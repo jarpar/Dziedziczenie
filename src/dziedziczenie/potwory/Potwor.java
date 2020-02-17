@@ -1,10 +1,10 @@
 package dziedziczenie.potwory;
 
 public class Potwor {
-    public double predkoscChodzenia = 10;
-    public double zywotnosc;
+    protected double predkoscChodzenia = 10;
+    protected double zywotnosc;
 
-    public void atakuj() {
+    protected void atakuj() {
         /*
         domyślna implementacja ataku
          */
