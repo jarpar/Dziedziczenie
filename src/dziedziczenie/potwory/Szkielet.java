@@ -3,8 +3,10 @@ package dziedziczenie.potwory;
 public class Szkielet extends Potwor {
 
     public void atakuj() {
+        super.atakuj();//super czyli metoda ataku potwora
         /*
-        domyślna implementacja ataku
+        tutaj dodać specyficzną dla szkieletu,
+        dodatkową implementację ataku
          */
         System.out.println("To jest metoda atakuj z klasy Szkielet");
     }
