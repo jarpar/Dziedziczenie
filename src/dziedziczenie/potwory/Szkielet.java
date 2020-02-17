@@ -1,6 +1,14 @@
 package dziedziczenie.potwory;
 
 public class Szkielet extends Potwor {
+
+    public void atakuj() {
+        /*
+        domyślna implementacja ataku
+         */
+        System.out.println("To jest metoda atakuj z klasy Szkielet");
+    }
+
     String typBroni;
 
     public Szkielet() {
