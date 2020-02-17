@@ -11,6 +11,11 @@ public class Szkielet extends Potwor {
         System.out.println("To jest metoda atakuj z klasy Szkielet");
     }
 
+    @Override
+    protected void opis() {
+
+    }
+
     String typBroni;
 
     public Szkielet() {

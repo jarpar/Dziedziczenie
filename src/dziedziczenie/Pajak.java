@@ -6,4 +6,9 @@ public class Pajak extends Potwor {
     void funkcja() {
         this.atakuj();
     }
+
+    @Override
+    protected void opis() {
+
+    }
 }

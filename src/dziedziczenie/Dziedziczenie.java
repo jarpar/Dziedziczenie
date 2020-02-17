@@ -7,15 +7,18 @@ import dziedziczenie.potwory.Zombie;
 public class Dziedziczenie {
     public static void main(String[] args) {
 
-        Potwor ps = new Szkielet(10, 100);
-        ps.atakuj();
-        System.out.println("####");
+        Potwor p = new Szkielet(25, 36, "miecz");
+        System.out.println(p);
 
-        Potwor pz = new Zombie();
-        pz.atakuj();
-        System.out.println("####");
-
-        specialAttack(ps, pz);
+//        Potwor ps = new Szkielet(10, 100);
+//        ps.atakuj();
+//        System.out.println("####");
+//
+//        Potwor pz = new Zombie();
+//        pz.atakuj();
+//        System.out.println("####");
+//
+//        specialAttack(ps, pz);
 
 //       Potwor p = new Potwor(10, 100);
 //        System.out.println(p);
@@ -28,8 +31,8 @@ public class Dziedziczenie {
 //        System.out.println(z);
     }
 
-    static void specialAttack(Potwor potwor1, Potwor potwor2) {
-        potwor1.atakuj();
-        potwor2.atakuj();
-    }
+//    static void specialAttack(Potwor potwor1, Potwor potwor2) {
+//        potwor1.atakuj();
+//        potwor2.atakuj();
+//    }
 }
