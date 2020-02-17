@@ -3,7 +3,7 @@ package dziedziczenie.potwory;
 public class Szkielet extends Potwor {
 
     public void atakuj() {
-        super.atakuj();//super czyli metoda ataku z potwor
+        //super.atakuj();//super czyli metoda ataku z potwor
         /*
         tutaj dodać specyficzną dla Szkielet,
         dodatkową implementację ataku
@@ -19,6 +19,7 @@ public class Szkielet extends Potwor {
 
     public Szkielet(double predkoscChodzenia, double zywotnosc) {
         super(predkoscChodzenia, zywotnosc);
+        System.out.println("Niedomyślny konstruktor z klasy szkielet z dwoma argumentami.");
     }
 
     public Szkielet(double predkoscChodzenia, double zywotnosc, String typBroni) {
